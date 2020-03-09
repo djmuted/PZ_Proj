@@ -4,9 +4,11 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[polish]{babel}
+\usepackage{array}
+\usepackage{geometry} 
 
 \newcommand{\Mod}[1]{\ (\mathrm{mod}\ #1)}
-
+\newgeometry{tmargin=3cm, bmargin=3cm, lmargin=0.5cm, rmargin=0.5cm} 
 
 \begin{document}
 
@@ -14,6 +16,7 @@
     \Large
     Karta Tematu Projektu
 \end{center}
+\begin{center}
 \begin{table}[h]
     \centering
     \begin{tabular}{|p{3cm}|p{5cm}|p{5cm}|}
@@ -23,7 +26,7 @@
          \multicolumn{2}{|c|}{Temat Projektu} & Data Modyfikacji Dokumentu \\ \hline
          \multicolumn{2}{|c|}{\textbf{Analiza wydźwięku wypowiedzi}} & 09.03.2020 r. \\ \hline
          \multicolumn{3}{|c|}{Członkowie Grupy} \\ \hline
-         Lp. & Imi\c e i Nazwisko & Numer Indeksu \\ \hline     
+         Lp. & Imię i Nazwisko & Numer Indeksu \\ \hline     
          1 & Miłosz Dziurzyński & 136234 \\ \hline
          2 & Wojciech Gawiński & 136238 \\ \hline
          3 & Jarosław Kmiotek & 135838 \\ \hline
@@ -31,5 +34,5 @@
     \end{tabular}
     \label{tab:my_label}
 \end{table}
-
+\end{center}
 \end{document}
