@@ -6,6 +6,7 @@
 \usepackage[polish]{babel}
 \usepackage{array}
 \usepackage{geometry} 
+\usepackage{hyperref}
 
 \newcommand{\Mod}[1]{\ (\mathrm{mod}\ #1)}
 \newgeometry{tmargin=3cm, bmargin=3cm, lmargin=0.5cm, rmargin=0.5cm} 
@@ -71,7 +72,7 @@ Problemy badawcze
          1 & Lokalny \\ \hline
          2 &  Uczenie w chmurze (Azure)\\ \hline
     \end{tabular}
-    \label{tab:my_label}
+    \label{tab:my_label2}
 \end{table}
 
 
@@ -90,7 +91,7 @@ Problemy badawcze
          4 &   CNN\\ \hline
          5 &   LSTM\\ \hline 
     \end{tabular}
-    \label{tab:my_label1}
+    \label{tab:my_label3}
 \end{table}
 
 \begin{table}[h]
@@ -107,6 +108,37 @@ Problemy badawcze
          3 &  \\ \hline
          4 &  \\ \hline
     \end{tabular}
-    \label{tab:my_label2}
+    \label{tab:my_label4}
+\end{table}
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|p{4.5cm}|p{9cm}|}
+        \hline
+         Numer problemu badawczego & 5 \\
+         \hline
+         Skrócona nazwa problemu & Zasada działania autoencodera\\
+         \hline
+         \multicolumn{2}{|c|}{Wykorzystane dokumenty} \\ \hline
+         1 &  \href{http://www.latex-tutorial.com}{OverLeaf}. \\ \hline
+         2 &  \href{https://machinelearningmastery.com/lstm-autoencoders/}{LSTM-Autoencoder}\\ \hline
+         3 & \href{https://towardsdatascience.com/step-by-step-understanding-lstm-autoencoder-layers-ffab055b6352}{Understanding lstm layers}\\ \hline
+    \end{tabular}
+    \label{tab:my_label4}
+\end{table}
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|p{4.5cm}|p{9cm}|}
+        \hline
+         Numer problemu badawczego & 4 \\
+         \hline
+         Skrócona nazwa problemu & Zamiana danych na one-hot vector\\
+         \hline
+         \multicolumn{2}{|c|}{Wykorzystane materiały} \\ \hline
+         1 &  \href{https://scikit-learn.org/stable/}{SkLearn} \\ \hline
+         2 &  \href{https://machinelearningmastery.com/how-to-one-hot-encode-sequence-data-in-python/}{Encoding one-hot}\\ \hline
+    \end{tabular}
+    \label{tab:my_label4}
 \end{table}
 \end{document}
